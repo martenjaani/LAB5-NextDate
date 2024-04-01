@@ -65,7 +65,8 @@ public class GTv2 {
 	public void testCreatesNextDate14() throws Throwable {
 	    NextDate nextDate0 = new NextDate(1832, 1832, 1832);
 	    String string0 = nextDate0.run(2, 29, 1832);
-	    assertEquals("Invalid Input Date", string0);
+	   // assertEquals("Invalid Input Date", string0);// this was generated wrongly, should be
+		assertEquals("3/1/1832", string0);
 	}
 
 	@Test(timeout = 4000)
